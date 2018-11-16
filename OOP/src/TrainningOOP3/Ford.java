@@ -16,9 +16,10 @@ public class Ford extends Car {
                 // TODO Auto-generated constructor stub
         }
 
-        public Ford(int speech, double regularPrice, String color) {
+        public Ford(int speech, double regularPrice, String color, int manufacturerDiscount) {
                 super(speech, regularPrice, color);
                 // TODO Auto-generated constructor stub
+                this.manufacturerDiscount = manufacturerDiscount;
         }
 
         @Override

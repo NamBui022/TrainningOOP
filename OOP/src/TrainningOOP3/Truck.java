@@ -15,9 +15,10 @@ public class Truck extends Car {
                 // TODO Auto-generated constructor stub
         }
 
-        public Truck(int speech, double regularPrice, String color) {
+        public Truck(int speech, double regularPrice, String color, int weight) {
                 super(speech, regularPrice, color);
                 // TODO Auto-generated constructor stub
+                this.weight = weight;
         }
 
         @Override
